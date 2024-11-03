@@ -1,2 +1,2 @@
 # FitnessApplication
-This is a public version of my engineer project. It will not get any updates. Original with my thesis will remain private.
+To jest publiczna wersja mojego projektu inżynierskiego. Nie będzie żadnych aktualizacji. Oryginał z moją rozprawą pozostanie prywatny.
