@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFitnessPlan</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+    <nav class="nav">
+        <a>
+            <img src="/static/img/logo.png">
+        </a>
+        <a href="/" class="nav__link" data-link>Home</a>
+        <a href="/exercises" class="nav__link" data-link>Exercises</a>
+        <a href="/calculators" class="nav__link" data-link>Calculators</a>
+        <a href="/workoutplan" class="nav__link" data-link>Workout Plans</a>
+        <a href="/login" class="nav__link" data-link>Login</a>
+        <a href="/userplace" class="nav__link" data-link>User Place</a>
+        <a href="/source" class="nav__link" data-link>Source</a>
+    </nav>
+    <div id="app"></div>
+    <script type="module" src="/static/js/load_data.js"></script>
+    <script type="module" src="/static/js/load_user_data.js"></script>
+    <script type="module" src="/static/js/load_workout_plans_data.js"></script>
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+</html>

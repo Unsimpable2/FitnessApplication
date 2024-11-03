@@ -1,0 +1,1050 @@
+body {
+    --nav-width: 200px;
+    margin: 0 0 0 var(--nav-width);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100%;
+    background: #222222;
+}
+
+.nav__link {
+    display: block;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: 500;
+}
+
+.nav__link:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+#app {
+    margin: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*---------HOME---------*/
+
+#home_main{
+    margin: 1em;
+    width: 165vh;
+    height: 75vh;
+}
+
+#home_box{
+    margin: 2em 0em 0em 2em;
+    width: 49vh;
+    height: 30vh;
+    background-color: #009579;
+    border-style: solid;
+    border-color: #222222;
+    float: left;
+}
+
+#home_box_bottom {
+    margin: 2em 2em 0em 10em;
+    width: 50vh;
+    height: 33vh;
+    background-color: #009579;
+    border-style: solid;
+    border-color: #222222;
+    float: left;
+}
+
+#description_title {
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #222222;
+}
+
+#description_text {
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+
+a {
+    color: #009579;
+    margin: 5px;
+}
+
+#home_box:hover, #home_box_bottom:hover {
+    background-color: #00000027;
+}
+
+/*---------Exercises---------*/
+
+#main_exercises {
+    margin: 0.5em;
+    width: 173vh;
+    height: 84vh;
+}
+
+#button_box {
+    margin: 0.5em;
+    margin-right: 0em;
+    width: 15vh;
+    height: 70vh;
+    background-color: #009579;
+    border-style: solid;
+    border-color: #222222;
+    float: left;
+}
+
+#main_content {
+    width: 98vh;
+    height: 82vh;
+    margin: 0.5em;
+    float: left;
+}
+
+#photo_box {
+    width: 97.5vh;
+    height: 76vh;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+    float: left;
+}
+
+#prev_next_box {
+    margin-top: 0.5em;
+    margin-left: 15.5em;
+    width: 40vh;
+    height: 5vh;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+    float: left;
+}
+
+#stability_info {
+    width: 55vh;
+    height: 12vh; 
+    margin-top: 0.5em;
+    border-style: solid;
+    border-color: #222222; 
+    background-color: #009579;
+    float: left;
+}
+
+#stability_description {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+}
+
+#stability_text {
+    margin: 0px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#exercise_text, #exercise_text_source {
+    text-align: center;
+    color: black;
+    margin: 0px;
+    font-size: 14px;
+}
+
+#description_box { 
+    margin-top: 0.5em; 
+    width: 56vh;
+    height: 82vh;
+    float: left;
+}
+
+#exercise_des_full {
+    width: 55vh;
+    height: 45vh; 
+    border-style: solid;
+    border-color: #222222; 
+    background-color: #009579;
+    float: left;
+}
+
+#exercise_des {
+    width: 55vh;
+    height: 43vh; 
+    float: left;
+}
+
+#exercise_text_source {
+    width: 55vh;
+    height: 2vh; 
+    float: left;
+}
+
+#icon_legend {
+    width: 55vh;
+    margin-top: 0.5em;
+    height: 20vh; 
+    border-style: solid;
+    border-color: #222222; 
+    background-color: #009579;
+    float: left;
+}
+
+#description_button, #description_exercise {
+    text-align: center;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #222222;
+}
+
+.buttons_options {
+    margin-left: 1.25em;
+    margin-right: 2em;
+    margin-bottom: 0.25em;
+    margin-top: 0.5em;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#prev_photo, #next_photo {
+    margin-left: 1.5em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#exercise_text {
+    text-align: center;
+}
+
+.legend_img {
+    float: left;
+    margin-left: 0.1em;
+    width: 8.75vh;
+    height: 5vh;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*---------Calculators---------*/
+
+#calc_main {
+    margin: 1em;
+    width: 165vh;
+    height: 80vh;
+}
+
+.act_class {
+    float: left;
+}
+
+#calc_frame {
+    margin: 1em 1em 1em 1em;
+    width: 78.5vh;
+    height: 75.5vh;
+    float: left;
+}
+
+#bmi_bfp_entry {
+    margin: 1em 1em 1em 1em;
+    width: 39vh;
+    height: 30vh;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+    float: left;
+}
+
+#result_box_bmi_bfp {
+    margin: 3em 1em 1em 0em;
+    width: 32vh;
+    height: 17vh;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+    float: left;
+}
+
+#result_box {
+    margin: 3em 1em 1em 0em;
+    width: 32vh;
+    height: 10vh;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+    float: left;
+}
+
+#dcr_box {
+    margin: 0em 1em 1em 1em;
+    width: 39vh;
+    height: 39.5vh;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+    float: left;
+}
+
+#input_data_1 {
+    width: 17vh;
+    height: 12vh;
+    float: left;
+}
+
+#input_data_2 {
+    width: 22vh;
+    height: 12vh;
+    float: left;
+}
+
+#input_data_3 {
+    width: 39vh;
+    height: 20vh;
+    float: left;
+}
+
+#level_description {
+    width: 32.5vh;
+    height: 16vh;
+    float: left;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+}
+
+#dcr_result, #description_dcr, #description_dcr_bmi, #description_dcr_bfp, .source_title {
+    font-weight: bold;
+    color: #222222;
+    text-align: center;
+}
+
+#description_lv {
+    color: #222222;
+    text-align: center;
+}
+
+#description_level {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    color: #222222;
+    margin-top: 0.5em;
+}
+
+#description_bmi_bfp {
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+}
+
+input[type='number']{
+    width: 40px;
+} 
+
+#img_frame_bmi {
+    margin: 3em 0em 1em 1em;
+    border-style: solid;
+    border-color: #222222;
+    float: left;
+}
+
+#img_frame_bfp {
+    margin: 6em 1em 1em 1em;
+    border-style: solid;
+    border-color: #222222;
+    float: left;
+}
+
+#bfp_description {
+    margin: 0em 1em 1em 0em;
+    width: 33vh;
+    height: 40vh;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+    float: left;
+}
+
+#bmi_description {
+    margin: 1em 1em 1em 1em;
+    width: 39vh;
+    height: 30vh;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+    float: left;
+}
+
+#input_data_3 > div {
+    display: contents;
+}
+
+/*----Login----*/
+
+#login_main_box {
+    height: 80vh;
+    width: 170vh;
+}
+
+#login_box_all {
+    height: 65vh;
+    width: 40vh;
+    margin: 4em;
+    float: left;
+}
+
+#login_box {
+    height: 36vh;
+    width: 40vh;
+    float: left;
+    margin: 4em;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+}
+
+#logout_box {
+    height: 20vh;
+    width: 40vh;
+    float: left;
+    text-align: center;
+    margin: 12em;
+    margin-left: 32em;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+}
+
+#register_box {
+    height: 50vh;
+    width: 40vh;
+    margin: 4em;
+    float: left;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+}
+
+#login_info_box {
+    height: 60vh;
+    width: 40vh;
+    margin: 4em;
+    float: left;
+    border-style: solid;
+    border-color: #222222;
+    background-color: #009579;
+}
+
+#input_box_2 {
+    text-align: center;
+    height: 7vh;
+    width: 40vh;
+    float: left;
+    margin-right: 10vh;
+    margin-top: 3vh;
+}
+
+
+.box_text {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #222222;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box_description {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #222222;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.input_box {
+    text-align: center;
+    height: 7vh;
+    width: 40vh;
+    float: left;
+    margin-right: 10vh;
+}
+
+.error_message{
+    text-align: center;
+    color: rgb(150, 14, 14);
+}
+
+.button_style {
+    height: 6vh;
+    width: 18vh;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*----Source----*/
+
+#source_main_box {
+    margin: 1em 1em 1em 1em;
+    width: 169vh;
+    height: 76vh;
+}
+
+.source_link_box {
+    margin: 0.5em 0.25em 0.5em 0.25em;
+    width: 26.5vh;
+    height: 36vh;
+    background-color: #009579;
+    border-style: solid;
+    border-color: #222222;
+    float: left;
+    text-align: center;
+}
+
+.description_source_text {
+    color: black;
+}
+
+/*----UserPlace----*/
+
+#userplace_main_box, #workout_plans_main_box {
+    width: 172vh;
+    height: 84vh;
+}
+
+#not_log_in_message_box {
+    width: 80vh;
+    height: 20vh;
+    margin: 15em 25em 25em 22em;
+    text-align: center;
+    background-color: #009579;
+    border-style: solid;
+    border-color: #222222;
+}
+
+#trainer_main_full_box {
+    width: 67vh;
+    height: 87vh;
+    float: left;
+}
+
+#type_user_box {
+    width: 67vh;
+    height: 44.5vh;
+    float: left;
+    margin-bottom: 0.25em;
+}
+
+#show_bmi_bfp_dcr_box_full {
+    width: 67vh;
+    height: 9.5vh;
+    float: left;
+}
+
+#show_bmi_bfp_dcr_box {
+    width: 45vh;
+    height: 8.5vh;
+    margin-bottom: 0.25em;
+    background-color: #009579;
+    border-style: solid;
+    border-color: #222222;
+    float: left;
+}
+
+#user_place_select_options {
+    width: 15vh;
+    height: 6vh;
+    float: left;
+}
+
+#user_place_select_options_version {
+    width: 7vh;
+    height: 8vh;
+    float: left;
+}
+
+#user_place_select_options, #show_record_select_options {
+    margin-top: 0.5em;
+    float: left;
+}
+
+#user_place_select_button, #show_workout_plans_button_box, #show_user_bmi_bfp_dcr_button, #show_act_abd_comp_workout_plans_button_box {
+    width: 5.5vh;
+    height: 3vh;
+    margin-top: 1.25em;
+    float: left;
+}
+
+#user_text, #user_text_show, #show_user_bmi_bfp_dcr_text_show, #show_user_record_text_show, #show_user_record_text, #count_workout_plan_users_text_show, #show_act_abd_comp_workout_plans_text {
+    margin-top: 1.25em;
+    margin-left: 0.5em;
+    color: #222222;
+    float: left;
+}
+
+#add_record_box_full {
+    width: 67vh;
+    height: 6vh;
+    float: left;
+}
+
+#add_record_box{
+    width: 48vh;
+    height: 5vh;
+    background-color: #009579;
+    border-style: solid;
+    border-color: #222222;
+    margin-bottom: 0.25em;
+    float: left; 
+}
+
+#add_record_section, #add_record_exercise {
+    margin-top: 0.5em;
+    margin-left: 0.25em;
+    float: left; 
+}
+
+#add_record_user_text, #add_record_button, #add_record_amount {
+    margin-top: 0.5em;
+    margin-left: 0.25em;
+    color: #222222;
+    float: left;
+}
+
+#show_record_box_full {
+    width: 67vh;
+    height: 8vh;
+    float: left;
+}
+
+#show_record_box {
+    width: 64vh;
+    height: 7vh;
+    margin-bottom: 0.25em;
+    background-color: #009579;
+    border-style: solid;
+    border-color: #222222;
+    float: left;
+}
+
+#show_record_section_options, #show_record_exercise, #show_record_button_box {
+    margin-top: 1.25em;
+    margin-left: 0.5em;
+    color: #222222;
+    float: left;
+}
+
+#show_record_text {
+    margin-top: 1.25em;
+    margin-left: 0.25em;
+    color: #222222;
+    float: left;
+}
+
+#show_workout_plans_full {
+    width: 67vh;
+    height: 15vh;
+    float: left;
+}
+
+#show_workout_plans{
+    width: 57vh;
+    height: 14vh;
+    margin-bottom: 0.25em;
+    background-color: #009579;
+    border-style: solid;
+    border-color: #222222;
+    float: left;
+}
+
+#show_workout_plan_options, #show_act_abd_comp_workout_plans_options {
+    width: 12.5vh;
+    height: 8vh;
+    float: left;
+}
+
+.show_workout_plan_options_2 {
+    width: 13vh;
+    height: 5vh;
+    float: left;
+}
+
+#show_workout_plan_text {
+    color: #222222;
+    float: left;
+    margin: auto;
+    margin-left: 1em;
+}
+
+#comp_ab_workout_plan_box_full {
+    width: 67vh;
+    height: 6.5vh;
+    float: left;
+}
+
+#comp_ab_workout_plan_box {
+    width: 43vh;
+    height: 5.5vh;
+    margin-bottom: 0.25em;
+    background-color: #009579;
+    border-style: solid;
+    border-color: #222222;
+    float: left;
+}
+
+#comp_ab_workout_plan_user_text {
+    color: #222222;
+    float: left;
+    margin: auto;
+    margin-top: 0.75em;
+}
+
+#comp_ab_workout_plan_section {
+    float: left;
+    margin: auto;
+    margin-top: 0.75em;
+    margin-left: 0.5em;
+}
+
+#comp_ab_workout_plans_button_box {
+    margin-top: 0.75em;
+    margin-left: 0.25em;
+    color: #222222;
+    float: left;
+}
+
+#trainer_main_box_2 {
+    width: 51vh;
+    height: 87vh;
+    float: left;
+}
+
+#trainer_main_box_1 {
+    width: 67vh;
+    height: 42vh;
+    float: left;
+    margin: auto;
+}
+
+#workout_plan_create_box {
+    width: 50vh;
+    height: 53vh;
+    float: left;
+    background-color:#009579;
+    border-style: solid;
+    border-color: #222222;
+    margin: auto;
+}
+
+#create_workout_plan_text {
+    text-align: center;
+    color: #222222;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 0.5em;
+}
+
+.workout_plan_entry_text {
+    margin: auto;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    color: #222222;
+    float: left;
+}
+
+#create_workout_plan_button_box {
+    text-align: center;
+    height: 3em;
+    width: 26em;
+    margin-top: 1em;
+}
+
+#create_workout_plan_button{
+    height: 3em;
+    width: 8em;
+    color: #222222;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#create_trainer_box, #delete_workout_plan {
+    width: 47vh;
+    height: 6vh;
+    float: left;
+    background-color:#009579;
+    border-style: solid;
+    border-color: #222222;
+    margin-top: 0.25em;
+}
+
+#delete_workout_plan {
+    width: 36vh;
+    height: 6vh;
+    float: left;
+    background-color:#009579;
+    border-style: solid;
+    border-color: #222222;
+    margin-top: 0.25em;
+}
+
+#create_new_trainer_text, #show_user_bmi_bfp_dcr_text, #count_workout_plan_users_text, #create_new_admin_text, #degraded_user_account_text {
+    color: #222222;
+    margin-top: 0.75em;
+    margin-left: 0.25em;
+    float: left;
+}
+
+#create_trainer_select_box, #count_workout_plan_users_option_box, #create_new_admin_select_box {
+    width: 22vh;
+    height: 6vh;
+    float: left;
+}
+
+#create_new_trainer_button, #create_new_admin_button, #ban_activ_user_acc_button, #degraded_user_account_button {
+    margin-top: 1.25em;
+    margin-left: 0.25em;
+    float: left;
+}
+
+#show_user_bmi_bfp_dcr, #show_user_record_box {
+    width: 66vh;
+    height: 8.25vh;
+    margin-bottom: 0.25em;
+    float: left;
+    background-color:#009579;
+    border-style: solid;
+    border-color: #222222;
+}
+
+#show_user_bmi_bfp_dcr_options, #show_user_record_options {
+    width: 14.5vh;
+    height: 6vh;
+    margin-top: 0.5em;
+    float: left;
+}
+
+#show_user_bmi_bfp_dcr_options_version {
+    width: 7vh;
+    height: 8vh;
+    float: left;
+}
+
+#show_user_bmi_bfp_dcr_text {
+    color: #222222;
+    float: left;
+    margin-top: 1.25em; 
+}
+
+#show_user_bmi_bfp_dcr_select_option_box, #show_user_record_select_option_box {
+    width: 22vh;
+    height: 6vh;
+    float: left;
+    margin-top: 0.5em;
+}
+
+#show_user_record_options_version_sec_exe {
+    width: 7vh;
+    height: 8vh;
+    margin-top: 0.5em;
+    float: left;
+}
+
+#show_user_record_button {
+    width: 5.5vh;
+    height: 3vh;
+    margin-top: 1.25em;
+    margin-left: 1.25em;
+    float: left;
+}
+
+#count_workout_plan_users {
+    width: 58vh;
+    height: 6vh;
+    margin-bottom: 0.25em;
+    float: left;
+    background-color:#009579;
+    border-style: solid;
+    border-color: #222222;
+}
+
+#count_workout_plan_users_button_box {
+    width: 5.25vh;
+    height: 3vh;
+    margin-top: 0.75em;
+    margin-left: 0.25em;
+    float: left;
+}
+
+#count_workout_plan_users_text_show {
+    color: #222222;
+    float: left;
+    margin-top: 0.75em;
+}
+
+#show_act_abd_comp_workout_plans_box_full {
+    width: 62vh;
+    height: 15vh;
+    margin-bottom: 0.25em;
+    float: left;
+    background-color:#009579;
+    border-style: solid;
+    border-color: #222222;
+}
+
+#show_act_abd_comp_workout_plans_box_1 {
+    width: 62vh;
+    height: 8vh;
+    float: left;
+    margin-bottom: 0.25em;
+}
+
+#show_act_abd_comp_workout_plans_box_2 {
+    width: 62vh;
+    height: 6.5vh;
+    float: left;
+}
+
+.show_act_abd_comp_workout_plans_show_text {
+    color: #222222;
+    float: left;
+    margin: auto;
+    white-space: pre-wrap;
+    margin-left: 0.5em
+}
+
+#admin_main_box {
+    width: 54vh;
+    height: 85vh;
+    float: left;
+}
+
+#create_new_admin_box {
+    width: 52vh;
+    height: 6vh;
+    float: left;
+    background-color:#009579;
+    border-style: solid;
+    border-color: #222222;
+    margin-bottom: 0.25em;
+}
+
+.select_max_width {
+    max-width: 80px;
+}
+
+.select_max_width_2 {
+    max-width: 120px;
+}
+
+.select_max_width_3 {
+    max-width: 70px;
+}
+
+#ban_activ_user_acc {
+    width: 49vh;
+    height: 6vh;
+    float: left;
+    background-color:#009579;
+    border-style: solid;
+    border-color: #222222;
+    margin-bottom: 0.25em;
+}
+
+#degraded_user_account_help_box_1 {
+    width: 31.5vh;
+    height: 6vh;
+    float: left;
+}
+
+#degraded_user_account_box {
+    width: 49vh;
+    height: 6vh;
+    float: left;
+    background-color:#009579;
+    border-style: solid;
+    border-color: #222222;
+    margin-bottom: 0.25em;
+    padding: 5px;
+}
+
+#degraded_user_account_help_box_2 {
+    width: 11vh;
+    height: 4vh;
+    float: left;
+}
+
+#degraded_user_account_new_value {
+    margin-top: 1.25em;
+    margin-left: 0.25em;
+}
+
+/*----Workout Plans----*/
+
+.workout_plan_dec_box {
+    width: 43vh;
+    height: 47vh;
+    float: left;
+    background-color:#009579;
+    border-style: solid;
+    border-color: #222222;
+    margin-bottom: 0.25em;
+    margin-left: 0.25em;
+    line-height: 18px;
+    padding: 5px;
+}
+
+.workout_plan_big_text {
+    color: #222222;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.workout_plan_des_text {
+    color: #222222;
+    font-weight: bold;
+    margin: auto;
+}
+
+.workout_plan_common_text {
+    color: #222222;
+    font-weight: normal;
+}
+
+.workout_plan_join_button_box {
+    width: 43vh;
+    height: 3vh;
+    margin-top: 0.5em;
+    float: left;
+    text-align: center;
+}
+
+.workout_plan_join_button {
+    width: 6vh;
+    height: 3vh;
+    font-size: 15px;
+}
